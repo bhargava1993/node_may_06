@@ -1,0 +1,57 @@
+express --> module framework
+
+
+module/ libriry/ dependencies:
+-------------------------------
+
+Inbuilt module:   ex: fs, path, os, crpto, http
+
+import modules:
+-----------------
+require
+import
+
+export module:
+--------------
+export
+
+-------------------------------------
+external module: 
+
+install modules:    npm install express
+
+express, morgan, mongodb, mongoose, xlsx, multer, formiddle, pupptter
+
+-----------------------------------------
+package.json
+
+package-lock.json
+
+
+
+npm --> node package manager, to install external modules
+
+"version": "1.0.0" ==>  Major.Minor.patch
+
+(^)caret symblo:
+
+^1.2.1 ==>  
+
+Allow: minor, patch  updates only
+
+(~) tilde symbol:
+---------------------
+
+~1.2.1 ==>
+
+Allow: patch update only
+
+
+install modules in devdependics:
+--------------------------------
+
+npm install --save-dev nodemon eslint
+
+
+-----------------------
+xlsx: excel
