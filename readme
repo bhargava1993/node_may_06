@@ -55,3 +55,83 @@ npm install --save-dev nodemon eslint
 
 -----------------------
 xlsx: excel
+
+
+---------------------------------------
+Routing:
+-------
+
+
+departments:
+------------
+ teaching/m1
+ teaching/m2
+ teaching/java
+ sports
+ library
+ Labs
+ nonTeaching
+
+Defination:
+-----------
+Routing means deciding how an application responds to a client request
+for a spectic URL and HTTP method
+
+
+http://localhost:3000/teaching
+
+http://localhost:3000/sports
+
+http://localhost:3000/library
+
+
+/produts
+/users
+/orders
+/cart
+
+HTTP:
+------------------------
+post ---> create/insert
+
+get  ---> display/read/fetch
+
+put ---->update/modifications
+
+patch ---->update/modifications
+
+delete ---> remove
+    soft delete ---> status:false
+    hard delete ---> complete delete
+
+--------------------------------
+
+folder Structure:
+----------------
+
+server.js
+app.js
+package.json
+
+routes/
+    user.routes.js
+    products.routes.js  
+    orders.routes.js
+    cart.routes.js
+
+controller:
+    user.controller.js
+    products.controller.js
+    orders.controller.js
+    cart.controller.js
+
+middleWare/
+    auth.middleWare.js
+    file.middleWare.js
+
+db/
+ connect.js
+
+MVC: model view controller
+
+MVVM: model view, view models
